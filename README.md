@@ -34,21 +34,18 @@ dotnet run data\diagnostic_report.txt
 #### Opção 2: Modo interativo (será solicitado o caminho)
 dotnet run\
 Quando executado no modo interativo, o programa solicitará:\
-Por favor, informe o caminho do arquivo de relatório:\
+Por favor, informe o caminho do arquivo de relatório:
 > _
 
 Informe o caminho relativo (ex: data\diagnostic_report.txt) ou absoluto (ex: C:\caminho\completo\diagnostic_report.txt)
 
 ### No Visual Studio
-Pressione F5 para iniciar
-
+Pressione F5 para iniciar\
 Quando solicitado, informe o caminho do arquivo
 
 ## 🔍 Padrões de Projeto Utilizados
-Injeção de Dependência: Para desacoplar componentes
-
-Repository Pattern: Para acesso a dados
-
+Injeção de Dependência: Para desacoplar componentes\
+Repository Pattern: Para acesso a dados\
 Strategy Pattern: Para diferentes algoritmos de análise
 
 ## ✅ Testes
@@ -57,21 +54,15 @@ dotnet test
 
 ### Cobertura de testes:
 
-Testes unitários para lógica principal
-
-Testes de integração para repositórios
-
+Testes unitários para lógica principal\
+Testes de integração para repositórios\
 Testes de comportamento para o serviço principal
 
 ## 📊 Exemplo de Saída
-=== Relatório de Diagnóstico do Submarino ===
-
-Taxa Gama: 10110 (decimal: 22)
-
-Taxa Épsilon: 01001 (decimal: 9)
-
+=== Relatório de Diagnóstico do Submarino ===\
+Taxa Gama: 10110 (decimal: 22)\
+Taxa Épsilon: 01001 (decimal: 9)\
 Consumo de Energia: 198
-
 
 ## 👤 Desenvolvedor
 Desenvolvido por Alain Rosewelt Silva Lobato.
