@@ -12,22 +12,14 @@ Sistema para análise de consumo de energia de submarinos baseado em relatórios
 ## ⚙️ Configuração do Projeto
 
 ### Estrutura de Arquivos
-SubmarineDiagnostic/
-
-├── data/     
-
-│   └── diagnostic_report.txt       ← Arquivo de entrada com números binários
-
+SubmarineDiagnostic/ \
+├── data/ \
+│   └── diagnostic_report.txt       ← Arquivo de entrada com números binários \
 │
-
-├── SubmarineDiagnostic.Core/       ← Regras de negócio, modelos e interfaces
-
-├── SubmarineDiagnostic.Infrastructure/ ← Implementações de serviços e lógica concreta
-
-├── SubmarineDiagnostic.ConsoleApp/ ← Aplicação de console para execução do cálculo
-
+├── SubmarineDiagnostic.Core/       ← Regras de negócio, modelos e interfaces \
+├── SubmarineDiagnostic.Infrastructure/ ← Implementações de serviços e lógica concreta \
+├── SubmarineDiagnostic.ConsoleApp/ ← Aplicação de console para execução do cálculo\
 └── SubmarineDiagnostic.Tests/      ← Testes unitários
-
 
 ## 🚀 Como Executar
 
