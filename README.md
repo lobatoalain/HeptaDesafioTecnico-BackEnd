@@ -32,9 +32,9 @@ cd SubmarineDiagnostic.ConsoleApp
 dotnet run data\diagnostic_report.txt
 
 #### Opção 2: Modo interativo (será solicitado o caminho)
-dotnet run
-Quando executado no modo interativo, o programa solicitará:
-Por favor, informe o caminho do arquivo de relatório:
+dotnet run\
+Quando executado no modo interativo, o programa solicitará:\
+Por favor, informe o caminho do arquivo de relatório:\
 > _
 
 Informe o caminho relativo (ex: data\diagnostic_report.txt) ou absoluto (ex: C:\caminho\completo\diagnostic_report.txt)
