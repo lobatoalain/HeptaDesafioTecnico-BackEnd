@@ -73,6 +73,13 @@ Testes de comportamento para o serviço principal
 
 ## 📊 Exemplo de Saída
 === Relatório de Diagnóstico do Submarino ===
+
 Taxa Gama: 10110 (decimal: 22)
+
 Taxa Épsilon: 01001 (decimal: 9)
+
 Consumo de Energia: 198
+
+
+## 👤 Desenvolvedor
+Desenvolvido por Alain Rosewelt Silva Lobato.
