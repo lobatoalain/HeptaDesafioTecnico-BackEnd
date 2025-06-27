@@ -33,13 +33,13 @@ SubmarineDiagnostic/
 
 ### Via Linha de Comando
 
-# Navegue até a pasta do projeto
+### Navegue até a pasta do projeto
 cd SubmarineDiagnostic.ConsoleApp
 
-# Opção 1: Execute com o caminho do arquivo
+#### Opção 1: Execute com o caminho do arquivo
 dotnet run data\diagnostic_report.txt
 
-# Opção 2: Modo interativo (será solicitado o caminho)
+#### Opção 2: Modo interativo (será solicitado o caminho)
 dotnet run
 Quando executado no modo interativo, o programa solicitará:
 Por favor, informe o caminho do arquivo de relatório:
@@ -47,23 +47,23 @@ Por favor, informe o caminho do arquivo de relatório:
 
 Informe o caminho relativo (ex: data\diagnostic_report.txt) ou absoluto (ex: C:\caminho\completo\diagnostic_report.txt)
 
-# No Visual Studio
+### No Visual Studio
 Pressione F5 para iniciar
 
 Quando solicitado, informe o caminho do arquivo
 
-# 🔍 Padrões de Projeto Utilizados
+## 🔍 Padrões de Projeto Utilizados
 Injeção de Dependência: Para desacoplar componentes
 
 Repository Pattern: Para acesso a dados
 
 Strategy Pattern: Para diferentes algoritmos de análise
 
-# ✅ Testes
+## ✅ Testes
 Execute os testes com:
 dotnet test
 
-## Cobertura de testes:
+### Cobertura de testes:
 
 Testes unitários para lógica principal
 
@@ -71,7 +71,7 @@ Testes de integração para repositórios
 
 Testes de comportamento para o serviço principal
 
-# 📊 Exemplo de Saída
+## 📊 Exemplo de Saída
 === Relatório de Diagnóstico do Submarino ===
 Taxa Gama: 10110 (decimal: 22)
 Taxa Épsilon: 01001 (decimal: 9)
